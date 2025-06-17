@@ -8,7 +8,7 @@ const initialState= {
 }
 
 
-const ThemeProviderContext = createContext(initialState)
+export const ThemeProviderContext = createContext(initialState)
  
 export function ThemeProvider({
   children,
